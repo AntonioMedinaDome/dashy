@@ -1,13 +1,7 @@
-pageInfo:
-  title: Central de Trabajo
-  description: Panel de Control Ejecutivo
-  navLinks:
-    - title: GitHub
-      path: https://github.com
 appConfig:
-  theme: default
-  layout: auto
-  iconSize: medium
+  theme: glass
+  layout: masonry
+  iconSize: small
   customStyles: |
     html, body, #app, #dashy, main {
       background-color: #f3eef8 !important;
@@ -52,6 +46,81 @@ appConfig:
     .item-icon img, .item-icon svg {
       filter: none !important;
     }
+  customCss: >-
+    /* 1. Fondo de toda la pantalla: lila suave y claro */
+
+    html, body, #app, #dashy, main, .page {
+      background-color: #f2eefa !important;
+      background-image: none !important;
+    }
+
+
+    /* 2. Bloques de categorías: todo el bloque uniforme con tono menta claro y
+    bordes suaves (adiós azul) */
+
+    .section, .col-item, .item-group {
+      background-color: #eef7f2 !important;
+      border: 2px solid #b7dfc8 !important;
+      border-radius: 14px !important;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05) !important;
+      padding: 12px !important;
+    }
+
+
+    /* 3. Títulos de cada categoría */
+
+    .section-header, .section-title, header {
+      background: transparent !important;
+      border-bottom: 2px solid #b7dfc8 !important;
+      padding-bottom: 8px !important;
+      margin-bottom: 12px !important;
+    }
+
+
+    .section-title *, .section-header * {
+      color: #1a2e22 !important;
+      font-weight: 800 !important;
+    }
+
+
+    /* 4. Tarjetas individuales de cada botón dentro del cuadro: blanco limpio
+    */
+
+    .item, .item-container {
+      background-color: #ffffff !important;
+      border: 1px solid #d4ebd9 !important;
+      border-radius: 10px !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03) !important;
+    }
+
+
+    .item:hover {
+      background-color: #ffffff !important;
+      border-color: #48bb78 !important;
+      transform: translateY(-2px);
+    }
+
+
+    /* 5. Textos en negro nítido */
+
+    .item-title, .item-description, h1, h2, h3, p, span, a {
+      color: #111111 !important;
+      font-weight: 600 !important;
+    }
+
+
+    /* 6. Iconos en su color original */
+
+    .item-icon img, .item-icon svg {
+      filter: none !important;
+    }
+  language: es
+pageInfo:
+  title: Central de Trabajo
+  description: Panel de Control Ejecutivo
+  navLinks:
+    - title: GitHub
+      path: https://github.com
 sections:
   - name: TRABAJO DIARIO
     icon: fas fa-briefcase
@@ -74,7 +143,6 @@ sections:
       - title: Zoom
         url: https://zoom.us
         icon: favicon
-
   - name: ANTONIO MEDINA ENERGÍA
     icon: fas fa-bolt
     items:
@@ -99,7 +167,6 @@ sections:
       - title: Habitar
         url: https://web.whatsapp.com
         icon: favicon
-
   - name: INTELIGENCIAS ARTIFICIALES
     icon: fas fa-brain
     items:
@@ -112,7 +179,6 @@ sections:
       - title: Gemini
         url: https://gemini.google.com
         icon: favicon
-
   - name: DISEÑO Y VIDEO
     icon: fas fa-palette
     items:
@@ -128,7 +194,6 @@ sections:
       - title: CapCut
         url: https://capcut.com
         icon: favicon
-
   - name: DOCUMENTOS Y FORMULARIOS
     icon: fas fa-file-alt
     items:
@@ -144,7 +209,6 @@ sections:
       - title: Google Slides
         url: https://slides.google.com
         icon: favicon
-
   - name: AGENDA Y TAREAS
     icon: fas fa-calendar-check
     items:
@@ -154,21 +218,18 @@ sections:
       - title: Google Tasks
         url: https://tasks.google.com
         icon: favicon
-
   - name: FAM WORLD
     icon: fas fa-users
     items:
       - title: Fam World Instagram
         url: https://instagram.com/famworld
         icon: favicon
-
   - name: CRM-CONTACTOS Y SEGUIMIENTO
     icon: fas fa-address-book
     items:
       - title: Google Contacts CRM
         url: https://contacts.google.com
         icon: favicon
-
   - name: CASA ANDA
     icon: fas fa-home
     items:
@@ -184,7 +245,6 @@ sections:
       - title: Twitter (X)
         url: https://x.com
         icon: favicon
-
   - name: VENTAS
     icon: fas fa-shopping-cart
     items:
@@ -209,7 +269,6 @@ sections:
       - title: Hotmart
         url: https://hotmart.com
         icon: favicon
-
   - name: GESTIÓN Y SEGURIDAD
     icon: fas fa-lock
     items:
@@ -222,7 +281,6 @@ sections:
       - title: Dashy
         url: https://aesthetic-palmier-e2bd3a.netlify.app
         icon: favicon
-
   - name: NEWSLETTER Y CAMPAÑAS
     icon: fas fa-envelope-open-text
     items:
@@ -235,7 +293,6 @@ sections:
       - title: Beehiiv
         url: https://beehiiv.com
         icon: favicon
-
   - name: CURSOS Y ALUMNOS
     icon: fas fa-graduation-cap
     items:
@@ -251,7 +308,6 @@ sections:
       - title: YouTube Studio
         url: https://studio.youtube.com
         icon: favicon
-
   - name: REDES Y PUBLICIDAD
     icon: fas fa-bullhorn
     items:
@@ -282,10 +338,10 @@ sections:
       - title: Threads
         url: https://threads.net
         icon: favicon
-
   - name: CUENTAS Y GASTOS
     icon: fas fa-wallet
     items:
       - title: Google Sheets Gastos
         url: https://sheets.google.com
         icon: favicon
+pages: []
