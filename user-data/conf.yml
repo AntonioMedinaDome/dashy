@@ -1,59 +1,250 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Lissy93/dashy/master/src/utils/config/ConfigSchema.json
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Central de Trabajo
+  description: Panel de Control Ejecutivo
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: matrix
+  layout: auto
+  iconSize: medium
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: TRABAJO DIARIO
+    icon: fas fa-briefcase
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
+      - title: WhatsApp
+        url: https://web.whatsapp.com
+        icon: si-whatsapp
+      - title: Gmail
+        url: https://mail.google.com
+        icon: si-gmail
+      - title: Google Drive
+        url: https://drive.google.com
+        icon: si-googledrive
+      - title: Contactos
+        url: https://contacts.google.com
+        icon: si-google
+      - title: Google Meet
+        url: https://meet.google.com
+        icon: si-googlemeet
+      - title: Zoom
+        url: https://zoom.us
+        icon: si-zoom
 
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
+  - name: ANTONIO MEDINA ENERGÍA
+    icon: fas fa-bolt
     items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
+      - title: Antoniomedina
+        url: https://antoniomedinaenergia.com
+        icon: fas fa-globe
+      - title: Hpanel
+        url: https://hpanel.hostinger.com
+        icon: si-hostinger
+      - title: Web Principal
+        url: https://antoniomedinaenergia.com
+        icon: fas fa-bolt
+      - title: Instagram AME
+        url: https://instagram.com
+        icon: si-instagram
+      - title: YouTube AME
+        url: https://youtube.com
+        icon: si-youtube
+      - title: App AME
+        url: https://antoniomedinaenergia.com
+        icon: fas fa-shield-alt
+      - title: Habitar
+        url: https://web.whatsapp.com
+        icon: si-whatsapp
 
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+  - name: INTELIGENCIAS ARTIFICIALES
+    icon: fas fa-brain
+    items:
+      - title: ChatGPT
+        url: https://chatgpt.com
+        icon: si-openai
+      - title: Claude
+        url: https://claude.ai
+        icon: si-anthropic
+      - title: Gemini
+        url: https://gemini.google.com
+        icon: si-google
+
+  - name: DISEÑO Y VIDEO
+    icon: fas fa-palette
+    items:
+      - title: Canva
+        url: https://canva.com
+        icon: si-canva
+      - title: Captions
+        url: https://captions.ai
+        icon: fas fa-closed-captioning
+      - title: Kling AI (可灵 AI)
+        url: https://klingai.com
+        icon: fas fa-film
+      - title: CapCut
+        url: https://capcut.com
+        icon: si-capcut
+
+  - name: DOCUMENTOS Y FORMULARIOS
+    icon: fas fa-file-alt
+    items:
+      - title: Google Docs
+        url: https://docs.google.com
+        icon: si-googledocs
+      - title: Google Forms
+        url: https://forms.google.com
+        icon: si-googleforms
+      - title: Google Sheets
+        url: https://sheets.google.com
+        icon: si-googlesheets
+      - title: Google Slides
+        url: https://slides.google.com
+        icon: si-googleslides
+
+  - name: AGENDA Y TAREAS
+    icon: fas fa-calendar-check
+    items:
+      - title: Google Calendar
+        url: https://calendar.google.com
+        icon: si-googlecalendar
+      - title: Google Tasks
+        url: https://tasks.google.com
+        icon: si-googlekeep
+
+  - name: FAM WORLD
+    icon: fas fa-users
+    items:
+      - title: Fam World Instagram
+        url: https://instagram.com/famworld
+        icon: si-instagram
+
+  - name: CRM-CONTACTOS Y SEGUIMIENTO
+    icon: fas fa-address-book
+    items:
+      - title: Google Contacts CRM
+        url: https://contacts.google.com
+        icon: si-google
+
+  - name: CASA ANDA
+    icon: fas fa-home
+    items:
+      - title: Self Publishing
+        url: https://kdp.amazon.com
+        icon: si-amazon
+      - title: Pinterest
+        url: https://pinterest.com
+        icon: si-pinterest
+      - title: LinkedIn
+        url: https://linkedin.com
+        icon: si-linkedin
+      - title: Twitter (X)
+        url: https://x.com
+        icon: si-x
+
+  - name: VENTAS
+    icon: fas fa-shopping-cart
+    items:
+      - title: Amazon.es
+        url: https://amazon.es
+        icon: si-amazon
+      - title: Shopify Admin
+        url: https://admin.shopify.com
+        icon: si-shopify
+      - title: Eventbrite
+        url: https://eventbrite.es
+        icon: si-eventbrite
+      - title: Luma
+        url: https://lu.ma
+        icon: fas fa-sparkles
+      - title: Etsy
+        url: https://etsy.com
+        icon: si-etsy
+      - title: Gumroad
+        url: https://gumroad.com
+        icon: si-gumroad
+      - title: Hotmart
+        url: https://hotmart.com
+        icon: si-hotmart
+
+  - name: GESTIÓN Y SEGURIDAD
+    icon: fas fa-lock
+    items:
+      - title: Gestor de Contraseñas
+        url: https://passwords.google.com
+        icon: si-google
+      - title: Google One
+        url: https://one.google.com
+        icon: si-google
+      - title: Google Contraseñas
+        url: https://passwords.google.com
+        icon: si-google
+      - title: Dashy
+        url: https://aesthetic-palmier-e2bd3a.netlify.app
+        icon: fas fa-rocket
+
+  - name: NEWSLETTER Y CAMPAÑAS
+    icon: fas fa-envelope-open-text
+    items:
+      - title: Substack
+        url: https://substack.com
+        icon: si-substack
+      - title: MailerLite
+        url: https://mailerlite.com
+        icon: si-mailerlite
+      - title: Beehiiv
+        url: https://beehiiv.com
+        icon: fas fa-feather-alt
+
+  - name: CURSOS Y ALUMNOS
+    icon: fas fa-graduation-cap
+    items:
+      - title: Skool
+        url: https://skool.com
+        icon: fas fa-school
+      - title: Teachable
+        url: https://teachable.com
+        icon: si-teachable
+      - title: Href.li
+        url: https://href.li
+        icon: fas fa-link
+      - title: YouTube Studio
+        url: https://studio.youtube.com
+        icon: si-youtubestudio
+
+  - name: REDES Y PUBLICIDAD
+    icon: fas fa-bullhorn
+    items:
+      - title: Buzzfy
+        url: https://buzzfy.com
+        icon: fas fa-share-alt
+      - title: Klaviyo
+        url: https://klaviyo.com
+        icon: si-klaviyo
+      - title: Udemy
+        url: https://udemy.com
+        icon: si-udemy
+      - title: Skillshare
+        url: https://skillshare.com
+        icon: si-skillshare
+      - title: Superprof
+        url: https://superprof.es
+        icon: fas fa-chalkboard-teacher
+      - title: MeetUp
+        url: https://meetup.com
+        icon: si-meetup
+      - title: Medium
+        url: https://medium.com
+        icon: si-medium
+      - title: Quora
+        url: https://quora.com
+        icon: si-quora
+      - title: Threads
+        url: https://threads.net
+        icon: si-threads
+
+  - name: CUENTAS Y GASTOS
+    icon: fas fa-wallet
+    items:
+      - title: Google Sheets Gastos
+        url: https://sheets.google.com
+        icon: si-googlesheets
