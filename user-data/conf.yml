@@ -5,246 +5,267 @@ pageInfo:
     - title: GitHub
       path: https://github.com
 appConfig:
-  theme: matrix
+  theme: parchment
   layout: auto
   iconSize: medium
+  customStyles: |
+    :root {
+      --background: #f4f0f8 !important;
+      --background-darker: #eae3f2 !important;
+      --card-background: #ffffff !important;
+      --card-color: #1a1a1a !important;
+      --text-color: #111111 !important;
+      --heading-color: #0f172a !important;
+      --accent: #38a169 !important;
+      --item-background: #fbf9fd !important;
+      --item-hover-background: #e8f5e9 !important;
+      --border-color: #dcd3e6 !important;
+    }
+    body {
+      background-color: #f4f0f8 !important;
+      color: #111111 !important;
+    }
+    .section-title {
+      color: #111111 !important;
+      border-bottom: 2px solid #81c784 !important;
+    }
+    .item-icon img, .item-icon svg {
+      filter: none !important;
+    }
 sections:
   - name: TRABAJO DIARIO
     icon: fas fa-briefcase
     items:
       - title: WhatsApp
         url: https://web.whatsapp.com
-        icon: si-whatsapp
+        icon: favicon
       - title: Gmail
         url: https://mail.google.com
-        icon: si-gmail
+        icon: favicon
       - title: Google Drive
         url: https://drive.google.com
-        icon: si-googledrive
+        icon: favicon
       - title: Contactos
         url: https://contacts.google.com
-        icon: si-google
+        icon: favicon
       - title: Google Meet
         url: https://meet.google.com
-        icon: si-googlemeet
+        icon: favicon
       - title: Zoom
         url: https://zoom.us
-        icon: si-zoom
+        icon: favicon
 
   - name: ANTONIO MEDINA ENERGÍA
     icon: fas fa-bolt
     items:
       - title: Antoniomedina
         url: https://antoniomedinaenergia.com
-        icon: fas fa-globe
+        icon: favicon
       - title: Hpanel
         url: https://hpanel.hostinger.com
-        icon: si-hostinger
+        icon: favicon
       - title: Web Principal
         url: https://antoniomedinaenergia.com
-        icon: fas fa-bolt
+        icon: favicon
       - title: Instagram AME
         url: https://instagram.com
-        icon: si-instagram
+        icon: favicon
       - title: YouTube AME
         url: https://youtube.com
-        icon: si-youtube
+        icon: favicon
       - title: App AME
         url: https://antoniomedinaenergia.com
-        icon: fas fa-shield-alt
+        icon: favicon
       - title: Habitar
         url: https://web.whatsapp.com
-        icon: si-whatsapp
+        icon: favicon
 
   - name: INTELIGENCIAS ARTIFICIALES
     icon: fas fa-brain
     items:
       - title: ChatGPT
         url: https://chatgpt.com
-        icon: si-openai
+        icon: favicon
       - title: Claude
         url: https://claude.ai
-        icon: si-anthropic
+        icon: favicon
       - title: Gemini
         url: https://gemini.google.com
-        icon: si-google
+        icon: favicon
 
   - name: DISEÑO Y VIDEO
     icon: fas fa-palette
     items:
       - title: Canva
         url: https://canva.com
-        icon: si-canva
+        icon: favicon
       - title: Captions
         url: https://captions.ai
-        icon: fas fa-closed-captioning
+        icon: favicon
       - title: Kling AI (可灵 AI)
         url: https://klingai.com
-        icon: fas fa-film
+        icon: favicon
       - title: CapCut
         url: https://capcut.com
-        icon: si-capcut
+        icon: favicon
 
   - name: DOCUMENTOS Y FORMULARIOS
     icon: fas fa-file-alt
     items:
       - title: Google Docs
         url: https://docs.google.com
-        icon: si-googledocs
+        icon: favicon
       - title: Google Forms
         url: https://forms.google.com
-        icon: si-googleforms
+        icon: favicon
       - title: Google Sheets
         url: https://sheets.google.com
-        icon: si-googlesheets
+        icon: favicon
       - title: Google Slides
         url: https://slides.google.com
-        icon: si-googleslides
+        icon: favicon
 
   - name: AGENDA Y TAREAS
     icon: fas fa-calendar-check
     items:
       - title: Google Calendar
         url: https://calendar.google.com
-        icon: si-googlecalendar
+        icon: favicon
       - title: Google Tasks
         url: https://tasks.google.com
-        icon: si-googlekeep
+        icon: favicon
 
   - name: FAM WORLD
     icon: fas fa-users
     items:
       - title: Fam World Instagram
         url: https://instagram.com/famworld
-        icon: si-instagram
+        icon: favicon
 
   - name: CRM-CONTACTOS Y SEGUIMIENTO
     icon: fas fa-address-book
     items:
       - title: Google Contacts CRM
         url: https://contacts.google.com
-        icon: si-google
+        icon: favicon
 
   - name: CASA ANDA
     icon: fas fa-home
     items:
       - title: Self Publishing
         url: https://kdp.amazon.com
-        icon: si-amazon
+        icon: favicon
       - title: Pinterest
         url: https://pinterest.com
-        icon: si-pinterest
+        icon: favicon
       - title: LinkedIn
         url: https://linkedin.com
-        icon: si-linkedin
+        icon: favicon
       - title: Twitter (X)
         url: https://x.com
-        icon: si-x
+        icon: favicon
 
   - name: VENTAS
     icon: fas fa-shopping-cart
     items:
       - title: Amazon.es
         url: https://amazon.es
-        icon: si-amazon
+        icon: favicon
       - title: Shopify Admin
         url: https://admin.shopify.com
-        icon: si-shopify
+        icon: favicon
       - title: Eventbrite
         url: https://eventbrite.es
-        icon: si-eventbrite
+        icon: favicon
       - title: Luma
         url: https://lu.ma
-        icon: fas fa-sparkles
+        icon: favicon
       - title: Etsy
         url: https://etsy.com
-        icon: si-etsy
+        icon: favicon
       - title: Gumroad
         url: https://gumroad.com
-        icon: si-gumroad
+        icon: favicon
       - title: Hotmart
         url: https://hotmart.com
-        icon: si-hotmart
+        icon: favicon
 
   - name: GESTIÓN Y SEGURIDAD
     icon: fas fa-lock
     items:
       - title: Gestor de Contraseñas
         url: https://passwords.google.com
-        icon: si-google
+        icon: favicon
       - title: Google One
         url: https://one.google.com
-        icon: si-google
-      - title: Google Contraseñas
-        url: https://passwords.google.com
-        icon: si-google
+        icon: favicon
       - title: Dashy
         url: https://aesthetic-palmier-e2bd3a.netlify.app
-        icon: fas fa-rocket
+        icon: favicon
 
   - name: NEWSLETTER Y CAMPAÑAS
     icon: fas fa-envelope-open-text
     items:
       - title: Substack
         url: https://substack.com
-        icon: si-substack
+        icon: favicon
       - title: MailerLite
         url: https://mailerlite.com
-        icon: si-mailerlite
+        icon: favicon
       - title: Beehiiv
         url: https://beehiiv.com
-        icon: fas fa-feather-alt
+        icon: favicon
 
   - name: CURSOS Y ALUMNOS
     icon: fas fa-graduation-cap
     items:
       - title: Skool
         url: https://skool.com
-        icon: fas fa-school
+        icon: favicon
       - title: Teachable
         url: https://teachable.com
-        icon: si-teachable
+        icon: favicon
       - title: Href.li
         url: https://href.li
-        icon: fas fa-link
+        icon: favicon
       - title: YouTube Studio
         url: https://studio.youtube.com
-        icon: si-youtubestudio
+        icon: favicon
 
   - name: REDES Y PUBLICIDAD
     icon: fas fa-bullhorn
     items:
       - title: Buzzfy
         url: https://buzzfy.com
-        icon: fas fa-share-alt
+        icon: favicon
       - title: Klaviyo
         url: https://klaviyo.com
-        icon: si-klaviyo
+        icon: favicon
       - title: Udemy
         url: https://udemy.com
-        icon: si-udemy
+        icon: favicon
       - title: Skillshare
         url: https://skillshare.com
-        icon: si-skillshare
+        icon: favicon
       - title: Superprof
         url: https://superprof.es
-        icon: fas fa-chalkboard-teacher
+        icon: favicon
       - title: MeetUp
         url: https://meetup.com
-        icon: si-meetup
+        icon: favicon
       - title: Medium
         url: https://medium.com
-        icon: si-medium
+        icon: favicon
       - title: Quora
         url: https://quora.com
-        icon: si-quora
+        icon: favicon
       - title: Threads
         url: https://threads.net
-        icon: si-threads
+        icon: favicon
 
   - name: CUENTAS Y GASTOS
     icon: fas fa-wallet
     items:
       - title: Google Sheets Gastos
         url: https://sheets.google.com
-        icon: si-googlesheets
+        icon: favicon
